@@ -1,0 +1,11 @@
+[package]
+name = "plr"
+version = "0.1.0"
+authors = ["Elia Schelokov <thaumant@gmail.com>"]
+
+[dependencies]
+rand = "0.4"
+
+[[bin]]
+name = "plr"
+path = "src/main.rs"
